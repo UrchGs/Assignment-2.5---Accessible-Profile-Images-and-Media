@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+    <meta
+      name="description"
+      content="Personal profile page about me, a beginner web developer, with a photo, an audio introduction and a short video."
+    />
+    <meta name="author" content="HENRY UNACHUKWU" />
+  </head>
+  <body>
+    <header>
+      <h1>Hi, I'm HENRY UNACHUKWU</h1>
+      <p>
+        I'm a passionate Frontend Developer based in Nigeria.I specialize in
+        building scalable web applications using modern technologies. <br />
+        With a strong eye for design and a love for clean code, I help
+        businesses bring their ideas to life.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>About Me</h2>
+
+        <img
+          src="images/URCH.png"
+          alt="Portrait of me"
+          width="300"
+          height="300"
+        />
+
+        <p>
+          With a strong eye for design and a deep appreciation for clean,
+          maintainable code, <br />
+          I focus on developing interfaces that not only look great but also
+          deliver seamless user experiences across different devices and screen
+          sizes. <br />
+          I enjoy solving complex problems, exploring new technologies, and
+          continuously improving my skills to stay up to date with the
+          ever-evolving world of web development.
+        </p>
+
+        <p>
+          You can check out some of my works, projects, and CV. By clicking the
+          links.
+          <a href="https://github.com/UrchGs/Henry97">My GitHub Profile›</a>
+        </p>
+
+        <h2>My Services</h2>
+        <ul>
+          <li>Web Design and Development</li>
+          <li>Responsive Design for Mobile and Desktop</li>
+          <li>UI/UX Design and Prototyping</li>
+          <li>Front-end Development with HTML, CSS, and JavaScript</li>
+          <li>Performance Optimization and SEO Best Practices</li>
+        </ul>
+
+        <img src="images/space.png" alt="" width="400" height="400" />
+      </section>
+
+      <section>
+        <h2>My Workspace</h2>
+
+        <!-- figure & figcaption -->
+
+        <figure>
+          <img
+            src="images/myworkspace.png"
+            alt="A wooden desk with a laptop showing code, a notebook and a cup of tea"
+            width="600"
+            height="600"
+          />
+          <figcaption>My workspace where the magic happens.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <audio controls>
+          <source
+            src="Audio/UEFA_Champions_League_Anthem128k1.mp3"
+            type="audio/mpeg"
+          />
+
+          <p>
+            Your browser does not support the audio element. You can
+            <a href="media/intro.mp3">download the audio introduction (MP3)</a>
+            instead.
+          </p>
+        </audio>
+      </section>
+
+      <section>
+        <h2>My Introduction Video</h2>
+        <iframe
+          width="600"
+          height="600"
+          src="https://app.heygen.com/embeds/df671cc1b62f4b0da0594b5d99b16ec8"
+          title="My Introduction Video"
+          allow="encrypted-media; fullscreen"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 UrchTech007👨🏽‍💻👨🏽‍💻👨🏽‍💻</p>
+    </footer>
+  </body>
+</html>
+
+<!-- PART 2, THE WRITING PART-->
+<!-- 
+1. Why is `<img src="developer.jpg">` incomplete for a meaningful image?**
+It has no `alt` attribute, so screen readers can't describe the image (they may read out the file name instead), and nothing shows if the image fails to load. It's also invalid HTML.
+
+2. Why is `alt="image"` usually poor alternative text?**
+Screen readers already announce that it's an image, so "image" adds nothing. It doesn't say what the image shows, so the user misses the information a sighted person gets.
+
+3. What alt text would you write for your profile image, and why?**
+`alt="Portrait of Your Name smiling at the camera, wearing a blue shirt"`
+It says who is shown and describes the visible details that matter, in one short, easy-to-listen-to sentence. Change it to match your actual photo.
+
+4. When should `alt=""` be used?**
+For purely decorative images that add no information, like divider lines or icons beside text that says the same thing. The empty value tells screen readers to skip the image. Never use it for images that carry meaning, such as your profile photo.-->
